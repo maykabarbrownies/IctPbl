@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body{
+    background-color: #000;
+}
+.main_home{
+    width: 100%;
+    height: 10vh auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 3;
+}
+.main_nav{
+    width: 95%;
+    /*padding: 0 10px;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main_nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:    60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main_nav ul li a{
+    transition: all ease 0.2s;
+    text-decoration: none;
+    color: white;
+    border: transparent 2px solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 20px;
+    color: white;
+}
+
+
+.main_nav ul li a:hover{
+  border-bottom: 2px solid pink; 
+  border-top: 2px solid pink;
+  color: pink;
+  background-position-x: left;
+}
+
+.main a{
+  text-decoration: none;
+  font-family: 'SHARUNG Personal use', sans-serif;
+}
+
+.button-85 {
+  
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  border: 2px solid pink;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+  font-size: 16px;
+}
+
+
+.button-85:hover{
+  background-color: pink;
+  color: black;
+}
+
+.pone{
+  width: 100%;
+  height: 33vh auto;
+  background-color: white;
+  overflow: hidden;
+}
+
+.banner_logo{
+    width: 250px;
+    position: absolute;
+    top: 117px;
+    left: 150px;
+}
+
+.banner_logo_sec{
+    padding-top: 0px;
+    width: 570px;
+    overflow: hidden;
+}
+
+.pone p{
+    padding-left: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.pone p button{
+    border: 2px solid white;
+    background-color: black;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 15px 10px;
+    color: white;
+    transition: all ease 0.4s;
+}
+
+.pone p button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(148, 104, 111);
+    cursor: pointer;
+}
+
+.first_1{
+    padding-top: 120px; 
+}
+
+.born{
+    color: rgb(155, 34, 56);
+}
+
+
+
+.ptwo{
+    width: 100%;
+    height: 15vh auto;
+    background-color: white;
+}
+
+.music{
+    color: black;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Feeding a Moment', sans-serif;
+    font-weight: 100;
+    padding-bottom: 80px;
+}
+
+.box,.box2,.box3{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.pthree{
+    background-color: white;
+    width: 100% auto;
+    height: 80vh auto;
+}
+
+.box{
+    background-image: url(pink1.png);
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.3s;
+}
+
+.box:hover{
+    background-image: url(shuts.jpg);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.box2{
+    background-image: url(left.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.3s;
+}
+
+.box2:hover{
+    background-image: url(loves.jpg);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.box3{
+    background-image: url(right.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.3s;
+}
+
+.box3:hover{
+    background-image: url(L1.jpg);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.box4{
+    
+    transition: all ease 0.3s;
+    margin: 10px 20px 10px;
+    width: 770px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url(hi.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.box4:hover{
+    background-image: url(boom.jpg);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.box5{
+    
+    transition: all ease 0.3s;
+    margin: 10px 20px 10px;
+    width: 770px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url(hi.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.box5:hover{
+    background-image: url(L3.jpg);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.exl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psecond{
+    width: 100% auto;
+    height: 100vh auto;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.first_box{
+    color: white;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.first_box h1{
+    font-family: 'ICA Rubrik', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 5rem;
+}
+
+.first_box p{
+    width: 870px;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first_box button{
+    border: 2px solid black;
+    margin-left: 3px;
+    border: 2px solid;
+    background-color: rgb(137, 255, 216);
+    font-family: 'Poppins', sans-serif;
+    width: 9%;
+    height: 4vh;
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.first_box button:hover{
+    background-color: white;
+    border: rgb(255, 134, 154) 2px solid;
+    color: black;
+}
+
+.pink{
+    font-family: 'g Gombal', sans-serif;
+    color: rgb(255, 134, 154);
+}
+
+.black{
+    font-family: 'g Gombal', sans-serif;
+    font-weight: 100;
+}
+
+.green{
+    position: absolute;
+    width: 300px;
+}
+
+.lisa{
+    position: relative;
+    margin-right: 200px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 500px;
+    float: right;
+    z-index: 2;
+}
+
+.quare{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    margin-top: 60px;
+    margin-right: 25px;
+    z-index: 1;
+}
+
+.bot{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    margin-top: 670px;
+    margin-right: 460px;
+    z-index: 1;
+}
+
+.gl1{
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gl{
+    border-right: 2px solid brown;
+    border-left: 2px solid white;
+    padding: 1px 40px 1px;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.gl2{
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.gl2 img{
+    width: 900px;
+}
+
+.gl3{
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.gl3 button{
+    border: 2px solid;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 4vh;
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.gl3 button:hover{
+    background-color: black;
+    border: white 2px solid;
+    color: white;
+}
+
+.gl2 p{
+    position: absolute;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 1;
+    letter-spacing: 50px;
+    filter: blur(3px);
+}
+
+.de{
+    margin-right: 1200px;
+    color: white;
+}
+
+.mo{
+    margin-left: 1300px;
+    color: rgb(255, 134, 154);
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .f_1 , .f_2{
+    padding: 30px 100px 30px;
+}
+
+.footer a{
+    color: rgb(119, 119, 119);
+    margin: 0px 20px 0px;
+    transition: all ease 0.2s;
+    border-bottom: 2px solid rgb(216, 216, 216);
+}
+
+.footer a:hover{
+    color: black;
+    border-bottom: 2px solid rgb(88, 88, 88);
+}
+
+.bal{
+    color: rgb(119, 119, 119);
+}
+
+
+

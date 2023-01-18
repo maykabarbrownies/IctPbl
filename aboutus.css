@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body{
+    background-color: #000;
+}
+.main_home{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 1;
+}
+.main_nav{
+    width: 95%;
+    /*padding: 0 10px;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main_nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:    60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main_nav ul li a{
+    transition: all ease 0.2s;
+    text-decoration: none;
+    color: white;
+    border: transparent 2px solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 20px;
+    color: white;
+}
+
+
+.main_nav ul li a:hover{
+  border-bottom: 2px solid pink; 
+  border-top: 2px solid pink;
+  color: pink;
+  background-position-x: left;
+}
+
+.main a{
+  text-decoration: none;
+  font-family: 'SHARUNG Personal use', sans-serif;
+}
+
+.kof{
+    width: 100%;
+    height: 40vh auto;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kof h1{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    filter: blur(0.5px);
+}
+
+.dev{
+    background-color: black;
+    padding: 20px 20px 20px;
+    color: rgb(255, 134, 154);
+}
+
+.kls{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.kls h1{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    filter: blur(0.5px);
+    text-align: center;
+}
+
+.fle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.kls .p4{
+    width: 1200px;
+    font-size: 14px;
+}
+
+.vis{
+    width: 300px;
+    height: 400px;
+    background-image: url(new1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.8) -50px 50px 1px;
+}
+
+.vus{
+    width: 300px;
+    height: 400px;
+    background-image: url(new2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.8) 50px 50px 1px;
+}
+
+.ma div{
+    margin: 40px 50px 40px;
+}
+
+.ma{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.hj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hj p{
+    margin: 1px 170px 1px;
+}
+
+.may{
+    margin-top: 415px;
+    color: white;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.kyal{
+    margin-top: 415px;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.line{
+    border: 1px solid black;
+    height: 400px;
+}
+
+.mev{
+    padding: 20px 80px 20px;
+    color: rgb(255, 134, 154);
+}
+
+.mov{
+    width: 100%;
+    height: 40vh auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    filter: blur(0.5px);
+}
+
+.mev1{
+    color: white;
+    padding: 20px 80px 20px;
+}
+
+.mev2{
+    color: rgb(88, 255, 219);
+    padding: 20px 80px 20px;
+}
+
+.lone{
+    width: 100px;
+    border-top: 2px solid rgb(255, 134, 154);
+}
+
+.cre{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+i{
+    padding: 30px 30px 30px;
+    font-size: 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 30px 60px 30px;
+    border-radius: 10px;
+    color: rgb(131, 131, 131);
+}
+
+.fa-google{
+    color: rgb(0, 255, 170);
+}
+
+.fa-pinterest-p{
+    color: red;
+}
+
+.fa-font-awesome{
+    color: rgb(123, 123, 255);
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.dvb{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cvc h1{
+    padding: 20px 60px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px 0px 60px;
+    font-size: 24px;
+}
+
+.pvp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pvp h1{
+    padding: 20px 60px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px 0px 60px;
+    font-size: 20px;
+}
+
+.mvp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mvp p{
+    padding: 20px 160px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px 0px 60px;
+    font-size: 16px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .f_1 , .f_2{
+    padding: 30px 100px 30px;
+}
+
+.footer a{
+    color: rgb(119, 119, 119);
+    margin: 0px 20px 0px;
+    transition: all ease 0.2s;
+    border-bottom: 2px solid rgb(216, 216, 216);
+}
+
+.footer a:hover{
+    color: black;
+    border-bottom: 2px solid rgb(88, 88, 88);
+}
+
+.bal{
+    color: rgb(119, 119, 119);
+}
+
